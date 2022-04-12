@@ -21,9 +21,9 @@ Othello is a deterministic, turn-taking, 2-player, zero-sum game.
 
 The Othello game is an adversarial search problem with the definition of adversarial games and their formulation.
 
-I implemented move generators and evaluation functions in the othello.py file.
+I implemented move generators and evaluation functions in the `othello.py` file.
 
-Game playing agent based on the alpha-beta search is implemented in the agent.py file.
+Game playing agent based on the alpha-beta search is implemented in the `agent.py` file.
 
 Alpha-beta pruning 
 
