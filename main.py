@@ -24,7 +24,7 @@ def display_about_window(root):
     new_window = Toplevel(root)
     new_window.grab_set()
     new_window.title("About")
-    new_window.iconbitmap("othello/assets/icon.ico")
+    new_window.iconbitmap("./assets/icon.ico")
     new_window.resizable(False, False)
     new_window.transient(root)
     new_window.geometry("450x460")
@@ -152,7 +152,7 @@ def display_settings_window(root,
     settings_window = Toplevel(root)
     settings_window.grab_set()
     settings_window.title("Settings")
-    settings_window.iconbitmap("othello/assets/icon.ico")
+    settings_window.iconbitmap("./assets/icon.ico")
     settings_window.resizable(False, False)
     settings_window.transient(root)
     settings_window.geometry("320x500")
@@ -380,7 +380,7 @@ def add_menu_widget(root,
 def main():
     root = Tk()
     root.title("Othello")
-    root.iconbitmap("othello/assets/icon.ico")
+    root.iconbitmap("./assets/icon.ico")
     root.geometry("400x250")
     root.resizable(False, False)
 
