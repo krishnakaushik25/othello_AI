@@ -131,6 +131,7 @@ The [Othello](othello.py) class implements the game of Othello (Reversi) in acco
 ### Prerequisites
 
 * [Setup Python](https://realpython.com/installing-python/)
+* Use git clone command to clone this repo `git clone https://github.com/krishnakaushik25/othello_AI.git`
 
 ### Installation
 
